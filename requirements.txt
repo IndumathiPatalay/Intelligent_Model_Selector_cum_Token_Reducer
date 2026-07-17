@@ -1,5 +1,7 @@
 streamlit
 fireworks-ai
-langchain
+langchain_openai
 langgraph
+langchain_ollama
+langchain_core
 dotenv
