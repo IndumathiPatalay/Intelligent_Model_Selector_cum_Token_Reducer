@@ -1,6 +1,6 @@
-from Agents import main_app
+#from Agents import main_app
 import streamlit as st
-from Agents.main_app import process_app 
+from main_app import process_app 
 
 # --- Define your backend function ---
 def process_input(question : str) -> dict:
