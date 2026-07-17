@@ -1,2 +1,5 @@
 streamlit
 fireworks-ai
+langchain
+langgraph
+dotenv
