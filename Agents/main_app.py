@@ -245,4 +245,4 @@ def process_app(Question: str) -> dict:
 #print("Final Answer:", result["final_answer"])
 #print("Prompt_Tokens:", result["Prompt_tokens"])
 #print("Completion_Tokens:", result["Completion_tokens"])
-#print("Total_tokens:",result["Total_tokens"])
+print("Total_tokens:",result["Total_tokens"])
