@@ -1,6 +1,9 @@
 #from Agents import main_app
 import streamlit as st
-from main_app import process_app 
+from main_app import process_app
+
+#Dependency Keys
+os.environ["api_key"] == st.secrets["FIREWORKS_API_KEY"],
 
 # --- Define your backend function ---
 def process_input(question : str) -> dict:
