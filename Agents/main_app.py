@@ -86,10 +86,10 @@ evaluation_dict = {
 }
 
 load_dotenv()
-apikey=os.getenv("FIREWORKS_API_KEY")
+#apikey=os.getenv("FIREWORKS_API_KEY")
 #Dependency Keys
-client = Fireworks(api_key=st.secrets["FIREWORKS_API_KEY"])
-client = Fireworks()
+client = Fireworks(apikey=st.secrets["FIREWORKS_API_KEY"])
+#client = Fireworks()
 
 
 
