@@ -1,5 +1,3 @@
-from turtle import pd
-
 from Agents import main_app
 import streamlit as st
 from Agents.main_app import process_app 
