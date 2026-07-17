@@ -3,6 +3,7 @@
 from fireworks import Fireworks
 from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
+import streamlit as st
 
 from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
@@ -86,7 +87,11 @@ evaluation_dict = {
 
 load_dotenv()
 apikey=os.getenv("FIREWORKS_API_KEY")
+#Dependency Keys
+os.environ["api_key"] == st.secrets["FIREWORKS_API_KEY"]
 client = Fireworks()
+
+
 
 # 2. Create reasoning nodes
 def think_node(state: AgentState):
