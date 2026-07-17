@@ -88,7 +88,7 @@ evaluation_dict = {
 load_dotenv()
 apikey=os.getenv("FIREWORKS_API_KEY")
 #Dependency Keys
-os.environ["api_key"] == st.secrets["FIREWORKS_API_KEY"]
+os.environ["apikey"] == st.secrets["FIREWORKS_API_KEY"]
 client = Fireworks()
 
 
