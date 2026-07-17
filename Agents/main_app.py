@@ -1,7 +1,7 @@
 # Install dependencies
 # pip install langchain langgraph openai
 from fireworks import Fireworks
-#from langchain_openai import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langgraph.graph import StateGraph, END
 
 from langchain_ollama.llms import OllamaLLM
